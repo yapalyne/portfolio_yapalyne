@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica;
+    color: #333;
+    line-height: 1.6;
+    font-weight: 100;
+}
+
+
+/*header*/
+
+header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.text_header {
+    font-weight: 100;
+}
+
+header a {
+    text-decoration: none;
+     color: #333;
+     font-size: 12px;
+}
+
+nav a {
+    margin-left: 50px;
+   text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+/*Заглавная фотография*/
+
+#main {
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.main-image {
+    width: 100%;
+}
+
+#main h2 {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    text-align: center; 
+    padding: 20px; 
+    font-size: 100px;
+    font-weight: lighter;
+}
+
+/* Основная часть*/
+
+.container {
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.box {
+    flex: 1; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    text-align: left; 
+}
+
+/*ФОТО*/
+
+.image-container {
+    position: relative; 
+    width: 100%; 
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+
+.image-container img {
+    width: 100%; 
+    display: block; 
+}
+
+.m2 {
+    height: 800px;
+}
+.m3 {
+    position: absolute;
+    top: 20px;
+}
+.m4 {
+    position: absolute;
+    top: 440px;
+}
+
+.m5 {
+    position: absolute;
+    top: 20px;
+}
+.m6 {
+    position: absolute;
+    top: 440px;
+}
+.m7 {
+    height: 800px;
+}
+
+.m8 {
+    height: 800px;
+}
+.m9 {
+    height: 800px;
+}
+
+.m10 {
+    height: 800px;
+}
+.m11 {
+    position: absolute;
+    top: 20px;
+}
+.m12 {
+    position: absolute;
+    top: 440px;
+}
+
+.m13 {
+    height: 800px;
+}
+.m14 {
+    height: 800px;
+}
+
+
+/*ФУТЕР*/
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+footer a {
+    text-decoration: none;
+    color: #333;
+}
